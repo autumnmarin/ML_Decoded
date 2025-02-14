@@ -1,4 +1,4 @@
-# ✨ ML in Plain English ✨  
+# 🤖  ML in Plain English  🤖
 
 📢 **Looking for quick, no-fluff explanations of ML concepts?** You're in the right place! This repo provides **simple, real-world explanations** of key ML terms.  
 
@@ -16,7 +16,7 @@
 - [**Label Encoding** – Teaching Machines to Understand Words](#-label-encoding--teaching-machines-to-understand-words)  
 - [**Feature Engineering** – Giving Your Model Superpowers](#-feature-engineering--giving-your-model-superpowers)  
 
-### 🤖 **Model Performance & Generalization**  
+### 📊 **Model Performance & Generalization**  
 - [**Overfitting** – When Your Model is Too Smart for Its Own Good](#-overfitting--when-your-model-is-too-smart-for-its-own-good)  
 - [**Regularization** – Stopping Your Model from Overthinking](#-regularization--stopping-your-model-from-overthinking)  
 - [**Hyperparameter Tuning** – Finding the Perfect Settings](#-hyperparameter-tuning--finding-the-perfect-settings)  
