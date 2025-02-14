@@ -1,4 +1,7 @@
-# 🤖  ML in Plain English  🤖
+![image](https://github.com/user-attachments/assets/3c686b0d-f6e1-46d2-a7a0-03d4a0dcc7a7)
+
+
+# ML in Plain English  
 
 📢 **Looking for quick, no-fluff explanations of ML concepts?** You're in the right place! This repo provides **simple, real-world explanations** of key ML terms.  
 
