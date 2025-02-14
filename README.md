@@ -112,4 +112,4 @@ If you have a simpler, better way to explain something, PRs are welcome!
 
 ## 📊 **Visitor Count**  
 
-![Visitor Count](https://visitor-badge.glitch.me/badge?page_id=ml_decoded)
+![Visitor Count](https://visitor-badge.glitch.me/badge?page_id=ML_Decoded)
