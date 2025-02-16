@@ -5,17 +5,17 @@
 
 ---
 
-### 📚 Table of Contents  
+<!-- ### 📚 Table of Contents  -->
 
-<!-- ### 🚀 Core ML Concepts  
+#### 🚀 Core ML Concepts  
 - [Artificial Intelligence (AI)](#artificial-intelligence-ai)  
 - [Machine Learning (ML)](#machine-learning-ml)  
-- [Deep Learning (DL)](#deep-learning-dl)  
+<!-- - [Deep Learning (DL)](#deep-learning-dl)  
 - [Supervised Learning](#supervised-learning)  
 - [Unsupervised Learning](#unsupervised-learning)  
 - [Reinforcement Learning](#reinforcement-learning)  -->
 
-### 📏 Model Performance & Evaluation  
+#### 📏 Model Performance & Evaluation  
 - [📉 RMSE & 🎯 R² – How good is your model?](#rmse--r²--how-good-is-your-model)  
 - [🔄 Cross-Validation – Making Sure Your Model is Reliable](#cross-validation--making-sure-your-model-is-reliable)
   
@@ -25,7 +25,7 @@
 <!-- [Precision, Recall, & F1 Score](#precision-recall--f1-score) -->  
 <!-- [Confusion Matrix](#confusion-matrix) -->  
 
-### 🔢 Data & Feature Engineering  
+#### 🔢 Data & Feature Engineering  
 - [🔠 Label Encoding – Teaching Machines to Understand Words](#label-encoding--teaching-machines-to-understand-words)
 
 
@@ -34,7 +34,7 @@
 <!-- [One-Hot Encoding](#one-hot-encoding) -->  
 <!-- [Imbalanced Data](#imbalanced-data) -->  
 
-### 📊 ML Algorithms & Models  
+#### 📊 ML Algorithms & Models  
 - [🌲 Gradient Boosting – Learning from Mistakes, Step by Step](#gradient-boosting--learning-from-mistakes-step-by-step)  
 <!-- [Linear Regression](#linear-regression) -->  
  <!-- [Logistic Regression](#logistic-regression) -->  
@@ -45,6 +45,22 @@
 
 ---
 
+## 🚀 Core ML Concepts  
+  
+#### [🤖Artificial Intelligence (AI) ](#artificial-intelligence)
+Artificial Intelligence (AI) is a branch of computer science focused on creating machines that can perform tasks typically requiring human intelligence. These tasks include:
+
+- **Problem-solving** 🧩
+- **Understanding language** 🗣️
+- **Recognizing images** 🖼️
+
+#### [📚 Machine Learning (ML) ](#machine-learning)
+Machine Learning (ML) is a subset of AI that involves training computers to learn from data. Instead of programming every detail, you provide the computer with lots of examples, and it figures out patterns on its own. For example:
+
+- To distinguish between pictures of cats and dogs, you show the computer many examples of both. 🐱🐶
+- Over time, the computer learns the features that differentiate them and can then predict whether a new image is a cat or a dog. 🔍
+
+
 ##  📏 Model Performance & Evaluation 
 
 ### 📉  **RMSE & 🎯 R² – How good is your model?**  
@@ -52,12 +68,12 @@
 Imagine you're trying to guess people's heights based on their shoe size. 👟📏  
 You develop a formula (a model) that predicts height, but it's not perfect—some guesses are close, while others are way off.  
 
-### **📉 RMSE (Root Mean Squared Error)**  
+#### **📉 RMSE (Root Mean Squared Error)**  
 RMSE measures how far off your predictions are, on average.  
 - If RMSE is **2 inches**, your height predictions are typically off by about 2 inches.  
 - If RMSE is **10 inches**, your predictions are highly inaccurate.  
 
-### **🎯 R² (R-squared, or the "goodness of fit")**  
+#### **🎯 R² (R-squared, or the "goodness of fit")**  
 R² tells you **how well your model explains the data**.  
 - ✅ If R² is **1.0 (or 100%)**, your model is **perfect**.  
 - ⚠️ If R² is **0**, your model is no better than a random guess.  
