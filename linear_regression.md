@@ -4,36 +4,6 @@ This page explains how linear regression works using a sports example: predictin
 
 ---
 
-## 🏀 Scenario: Predicting Player Performance Based on Practice Hours
-
-Imagine you're a basketball coach, and you want to predict how many points a player will score in a game based solely on their average practice hours per week.
-
-At its core, linear regression finds the best-fitting straight line through your data points. The equation of this line is generally written as:
-
-\[
-y = mx + b
-\]
-
-where:  
-- **\( m \)** is the **slope**, representing how many additional points are expected for every extra hour of practice.  
-- **\( b \)** is the **intercept**, representing the baseline points when practice hours are zero.
-
-For our model, we have determined that:  
-- **Slope (\( m \))** = 2.0  
-- **Intercept (\( b \))** = 10  
-
-Thus, our specific linear equation becomes:
-
-\[
-\text{Predicted Points} = 2.0 \times \text{Practice Hours} + 10
-\]
-
-Below is an image illustrating this concept:
-
-![Linear Regression Basketball](lr_basketball.png)
-
----
-
 ## 📊 Example Data
 
 Consider the following data for 5 players:
@@ -46,9 +16,45 @@ Consider the following data for 5 players:
 | Durant  | 9                         | 29                       | 28                          |
 | Curry   | 11                        | 30                       | 32                          |
 
-For instance, for **Jordan**:  
+---
+
+## 🔢 Linear Regression Formula
+
+Linear regression finds the best-fitting straight line through your data points. The equation of this line is generally written as:
+
+\[
+y = mx + b
+\]
+
+where:  
+- **\( m \)** is the **slope**, representing how many additional points are expected for every extra hour of practice, and  
+- **\( b \)** is the **intercept**, representing the baseline points when practice hours are zero.
+
+For our model, we have determined:  
+- **Slope (\( m \))** = 2.0  
+- **Intercept (\( b \))** = 10  
+
+Thus, our specific linear equation becomes:
+
+\[
+y = 2.0x + 10
+\]
+
+where:  
+- \(y\) represents the predicted points per game, and  
+- \(x\) represents the practice hours per week.
+
+---
+
+## 🏀 Scenario and Visual Illustration
+
+Imagine you're a basketball coach, and you want to predict how many points a player will score in a game based solely on their average practice hours per week. For instance, for **Jordan**:
 - Using our model: Predicted Points = 2.0 × 10 + 10 = 30  
 - Notice that Jordan's actual points match the prediction exactly, while the other players' actual points deviate from the predicted values.
+
+Below is an image illustrating this concept:
+
+![Linear Regression Basketball](lr_basketball.png)
 
 ---
 
