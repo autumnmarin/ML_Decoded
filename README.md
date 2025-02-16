@@ -144,6 +144,9 @@ Now, we train a **second tree**, but instead of predicting satisfaction directly
 
 🚀 More trees = **Better predictions** (but with a risk of overfitting!).  
 
+[Click here](gradient_boosting.md) to learn more.
+
+
 ---
 
 ### 🚀 More Terms Coming Soon!  
