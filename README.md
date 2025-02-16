@@ -16,7 +16,7 @@
 - [Reinforcement Learning](#reinforcement-learning)  -->
 
 #### 📏 Model Performance & Evaluation  
-- [📉 RMSE & 🎯 R² – How good is your model?](#rmse--r²--how-good-is-your-model)  
+- [📉 RMSE & 🎯 R² – How good is your model?](#rmse-r2-how-good-is-your-model)  
 - [🔄 Cross-Validation – Making Sure Your Model is Reliable](#cross-validation--making-sure-your-model-is-reliable)
   
 <!-- [Overfitting & Underfitting](#overfitting--underfitting) -->
@@ -28,7 +28,6 @@
 #### 🔢 Data & Feature Engineering  
 - [🔠 Label Encoding – Teaching Machines to Understand Words](#label-encoding--teaching-machines-to-understand-words)
 
-
 <!-- [📦 Feature Engineering – Giving Your Model Superpowers](#feature-engineering--giving-your-model-superpowers) -->  
 <!-- [Feature Scaling](#feature-scaling) -->  
 <!-- [One-Hot Encoding](#one-hot-encoding) -->  
@@ -37,24 +36,24 @@
 #### 📊 ML Algorithms & Models  
 - [🌲 Gradient Boosting – Learning from Mistakes, Step by Step](#gradient-boosting--learning-from-mistakes-step-by-step)  
 <!-- [Linear Regression](#linear-regression) -->  
- <!-- [Logistic Regression](#logistic-regression) -->  
- <!-- [Decision Trees](#decision-trees) -->  
- <!-- [Random Forest](#random-forest) -->  
-  <!-- [K-Nearest Neighbors (KNN)](#k-nearest-neighbors-knn) -->  
- <!-- [Neural Networks](#neural-networks) -->  
+<!-- [Logistic Regression](#logistic-regression) -->  
+<!-- [Decision Trees](#decision-trees) -->  
+<!-- [Random Forest](#random-forest) -->  
+<!-- [K-Nearest Neighbors (KNN)](#k-nearest-neighbors-knn) -->  
+<!-- [Neural Networks](#neural-networks) -->  
 
 ---
 
 ## 🚀 Core ML Concepts  
   
-#### [🤖Artificial Intelligence (AI) ](#artificial-intelligence)
+#### <a id="artificial-intelligence"></a> 🤖 Artificial Intelligence (AI)
 Artificial Intelligence (AI) is a branch of computer science focused on creating machines that can perform tasks typically requiring human intelligence. These tasks include:
 
 - **Problem-solving** 🧩
 - **Understanding language** 🗣️
 - **Recognizing images** 🖼️
 
-#### [📚 Machine Learning (ML) ](#machine-learning)
+#### <a id="machine-learning"></a> 📚 Machine Learning (ML)
 Machine Learning (ML) is a subset of AI that involves training computers to learn from data. Instead of programming every detail, you provide the computer with lots of examples, and it figures out patterns on its own. For example:
 
 - To distinguish between pictures of cats and dogs, you show the computer many examples of both. 🐱🐶
@@ -63,7 +62,7 @@ Machine Learning (ML) is a subset of AI that involves training computers to lear
 
 ##  📏 Model Performance & Evaluation 
 
-### 📉  **RMSE & 🎯 R² – How good is your model?**  
+### <a id="rmse-r2-how-good-is-your-model"></a> 📉 **RMSE & 🎯 R² – How good is your model?**  
 
 Imagine you're trying to guess people's heights based on their shoe size. 👟📏  
 You develop a formula (a model) that predicts height, but it's not perfect—some guesses are close, while others are way off.  
@@ -81,7 +80,7 @@ R² tells you **how well your model explains the data**.
 
 ---
 
-### 🔄 **Cross-Validation** – Making Sure Your Model is Reliable  
+### <a id="cross-validation--making-sure-your-model-is-reliable"></a> 🔄 **Cross-Validation** – Making Sure Your Model is Reliable  
 
 Imagine practicing for a test by taking **multiple mini-tests** instead of relying on just one. 📚✏️  
 Cross-validation does the same for machine learning models. Instead of testing performance on just one dataset, it splits the data into **multiple parts**, testing the model on different sections to ensure **consistent results**.  
@@ -91,7 +90,7 @@ This helps avoid **flukes**, where the model performs well on one dataset but po
 ---
 ## 🔢 Data & Feature Engineering  
 
-### 🔠 **Label Encoding** – Teaching Machines to Understand Words  
+### <a id="label-encoding--teaching-machines-to-understand-words"></a> 🔠 **Label Encoding** – Teaching Machines to Understand Words  
 
 Imagine you're teaching a robot to recognize colors. 🚦  
 The robot doesn’t understand words like "Red" or "Blue"—it only understands numbers.  
@@ -113,7 +112,7 @@ That’s why we **only** use label encoding when the numbers **actually mean som
 
 ---
 
-### 🌲 **Gradient Boosting** – Learning from Mistakes, Step by Step  
+### <a id="gradient-boosting--learning-from-mistakes-step-by-step"></a> 🌲 **Gradient Boosting** – Learning from Mistakes, Step by Step  
 
 Gradient boosting builds models sequentially, where each new tree **learns from the mistakes** of the previous one.  
 
@@ -145,4 +144,3 @@ If you have a simpler, better way to explain something, PRs are welcome!
 ---
 
 ![Visitor Count](https://visitor-badge.laobi.icu/badge?page_id=autumnmarin.ML_Decoded)
-
