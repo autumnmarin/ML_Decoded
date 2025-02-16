@@ -36,7 +36,7 @@
 
 #### 📊 ML Algorithms & Models  
 - [🌲 Gradient Boosting – Learning from Mistakes, Step by Step](#gradient-boosting--learning-from-mistakes-step-by-step)  
-<!-- [Linear Regression](#linear-regression) -->  
+- [Linear Regression](#linear-regression) 
 <!-- [Logistic Regression](#logistic-regression) -->  
 <!-- [Decision Trees](#decision-trees) -->  
 <!-- [Random Forest](#random-forest) -->  
@@ -129,6 +129,23 @@ That’s why we **only** use label encoding when the numbers **actually mean som
 
 ## 📊 ML Algorithms & Models  
 
+### <a id="linear-regression"></a> 📈 **Linear Regression**
+
+Linear regression is a simple method for modeling the relationship between an input and an output using a straight line. The general equation is:
+
+\[
+y = mx + b
+\]
+
+Where:
+- **\(m\)** (slope) indicates how much \(y\) changes for each unit change in \(x\),
+- **\(b\)** (intercept) is the value of \(y\) when \(x\) is 0.
+
+In our basketball example, we use it to predict a player's points per game based on their practice hours. For a more detailed explanation and visualization, check out the [Linear Regression page](linear_regression.md).
+
+
+---
+
 ### <a id="gradient-boosting--learning-from-mistakes-step-by-step"></a> 🌲 **Gradient Boosting** – Learning from Mistakes, Step by Step  
 
 Gradient boosting builds models sequentially, where each new tree **learns from the mistakes** of the previous one.  
@@ -144,8 +161,7 @@ Now, we train a **second tree**, but instead of predicting satisfaction directly
 
 🚀 More trees = **Better predictions** (but with a risk of overfitting!).  
 
-[Click here](gradient_boosting.md) to learn more.
-
+Further reading can be found on the [Gradient Boosting page](gradient_boosting.md).
 
 ---
 
