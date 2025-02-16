@@ -127,19 +127,19 @@ That’s why we **only** use label encoding when the numbers **actually mean som
 
 ---
 
+## 📊 ML Algorithms & Models  
+
 ### <a id="gradient-boosting--learning-from-mistakes-step-by-step"></a> 🌲 **Gradient Boosting** – Learning from Mistakes, Step by Step  
 
 Gradient boosting builds models sequentially, where each new tree **learns from the mistakes** of the previous one.  
 
-### **Step 1: First Tree (Initial Prediction)**  
+#### **Step 1: First Tree (Initial Prediction)**  
 Imagine you run a restaurant and want to **predict customer satisfaction** (on a scale of 1-10) based on what they order.  
 
 To start, we use a **simple rule**:
 > "If they order a burger, they will rate the restaurant an 8."
 
----
-
-### **Step 2: Second Tree (Correcting the Mistakes)**  
+#### **Step 2: Second Tree (Correcting the Mistakes)**  
 Now, we train a **second tree**, but instead of predicting satisfaction directly, it **learns from the errors** of the first tree.
 
 🚀 More trees = **Better predictions** (but with a risk of overfitting!).  
