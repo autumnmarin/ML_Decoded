@@ -8,8 +8,8 @@
 <!-- ### 📚 Table of Contents  -->
 
 #### 🚀 Core ML Concepts  
-- [Artificial Intelligence (AI)](#artificial-intelligence-ai)  
-- [Machine Learning (ML)](#machine-learning-ml)  
+- [Artificial Intelligence (AI)](#artificial-intelligence)  
+- [Machine Learning (ML)](#machine-learning)  
 <!-- - [Deep Learning (DL)](#deep-learning-dl)  
 - [Supervised Learning](#supervised-learning)  
 - [Unsupervised Learning](#unsupervised-learning)  
