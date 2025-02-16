@@ -9,11 +9,12 @@
 
 #### 🚀 Core ML Concepts  
 - [Artificial Intelligence (AI)](#artificial-intelligence)  
-- [Machine Learning (ML)](#machine-learning)  
-<!-- - [Deep Learning (DL)](#deep-learning-dl)  
+- [Machine Learning (ML)](#machine-learning)
+- [Deep Learning (DL)](#deep-learning)  
+- [Reinforcement Learning](#reinforcement-learning)
+<!--  
 - [Supervised Learning](#supervised-learning)  
-- [Unsupervised Learning](#unsupervised-learning)  
-- [Reinforcement Learning](#reinforcement-learning)  -->
+- [Unsupervised Learning](#unsupervised-learning)    -->
 
 #### 📏 Model Performance & Evaluation  
 - [📉 RMSE & 🎯 R² – How good is your model?](#rmse-r2-how-good-is-your-model)  
@@ -57,7 +58,21 @@ Artificial Intelligence (AI) is a branch of computer science focused on creating
 Machine Learning (ML) is a subset of AI that involves training computers to learn from data. Instead of programming every detail, you provide the computer with lots of examples, and it figures out patterns on its own. For example:
 
 - To distinguish between pictures of cats and dogs, you show the computer many examples of both. 🐱🐶
-- Over time, the computer learns the features that differentiate them and can then predict whether a new image is a cat or a dog. 🔍
+- Over time, the computer learns the features that differentiate them and can predict whether a new image is a cat or a dog. 🔍
+
+#### <a id="deep-learning"></a> 🧠 Deep Learning (DL)
+Deep Learning is a specialized branch of machine learning that uses artificial neural networks with many layers to analyze complex patterns in data. It excels at tasks such as:
+
+- Image and speech recognition  
+- Natural language processing  
+- Complex decision-making  
+
+By mimicking the way our brains work, deep learning models can automatically extract high-level features from raw data.
+
+#### <a id="reinforcement-learning"></a> 🎮 Reinforcement Learning (RL)
+Reinforcement Learning is a type of machine learning where an **agent** learns to make decisions by interacting with its environment. The agent receives rewards for good actions and penalties for mistakes, gradually learning the best strategy to achieve its goal.  
+   
+A popular example is [**AWS DeepRacer**](https://aws.amazon.com/deepracer/), an autonomous 1/18th scale race car. DeepRacer uses reinforcement learning to learn how to navigate a track by trial and error—receiving rewards for completing laps quickly and safely.
 
 
 ##  📏 Model Performance & Evaluation 
