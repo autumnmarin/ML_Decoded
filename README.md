@@ -17,8 +17,8 @@
 - [Unsupervised Learning](#unsupervised-learning)    -->
 
 #### 📏 Model Performance & Evaluation  
-- [📉 RMSE & 🎯 R² – How good is your model?](#rmse-r2-how-good-is-your-model)  
-- [🔄 Cross-Validation – Making Sure Your Model is Reliable](#cross-validation--making-sure-your-model-is-reliable)
+- [RMSE &  R² – How good is your model?](#rmse-r2-how-good-is-your-model)  
+- [ Cross-Validation – Making Sure Your Model is Reliable](#cross-validation--making-sure-your-model-is-reliable)
   
 <!-- [Overfitting & Underfitting](#overfitting--underfitting) -->
 <!-- [Bias-Variance Tradeoff](#bias-variance-tradeoff) -->  
@@ -27,15 +27,15 @@
 <!-- [Confusion Matrix](#confusion-matrix) -->  
 
 #### 🔢 Data & Feature Engineering  
-- [🔠 Label Encoding – Teaching Machines to Understand Words](#label-encoding--teaching-machines-to-understand-words)
+- [Label Encoding – Teaching Machines to Understand Words](#label-encoding--teaching-machines-to-understand-words)
 
-<!-- [📦 Feature Engineering – Giving Your Model Superpowers](#feature-engineering--giving-your-model-superpowers) -->  
+<!-- [Feature Engineering – Giving Your Model Superpowers](#feature-engineering--giving-your-model-superpowers) -->  
 <!-- [Feature Scaling](#feature-scaling) -->  
 <!-- [One-Hot Encoding](#one-hot-encoding) -->  
 <!-- [Imbalanced Data](#imbalanced-data) -->  
 
 #### 📊 ML Algorithms & Models  
-- [🌲 Gradient Boosting – Learning from Mistakes, Step by Step](#gradient-boosting--learning-from-mistakes-step-by-step)  
+- [Gradient Boosting – Learning from Mistakes, Step by Step](#gradient-boosting--learning-from-mistakes-step-by-step)  
 - [Linear Regression](#linear-regression) 
 <!-- [Logistic Regression](#logistic-regression) -->  
 <!-- [Decision Trees](#decision-trees) -->  
@@ -74,10 +74,11 @@ Reinforcement Learning is a type of machine learning where an **agent** learns t
    
 A popular example is [**AWS DeepRacer**](https://aws.amazon.com/deepracer/), an autonomous 1/18th scale race car. DeepRacer uses reinforcement learning to learn how to navigate a track by trial and error—receiving rewards for completing laps quickly and safely.
 
+---
 
 ##  📏 Model Performance & Evaluation 
 
-### <a id="rmse-r2-how-good-is-your-model"></a> 📉 **RMSE & 🎯 R² – How good is your model?**  
+#### <a id="rmse-r2-how-good-is-your-model"></a> 📉 **RMSE & 🎯 R² – How good is your model?**  
 
 Imagine you're trying to guess people's heights based on their shoe size. 👟📏  
 You develop a formula (a model) that predicts height, but it's not perfect—some guesses are close, while others are way off.  
@@ -91,9 +92,9 @@ RMSE measures how far off your predictions are, on average.
 R² tells you **how well your model explains the data**.  
 - ✅ If R² is **1.0 (or 100%)**, your model is **perfect**.  
 - ⚠️ If R² is **0**, your model is no better than a random guess.  
-- ❌ If R² is **negative**, your model is worse than guessing.  
+- ❌ If R² is **negative**, your model is worse than guessing.
 
----
+--- 
 
 ### <a id="cross-validation--making-sure-your-model-is-reliable"></a> 🔄 **Cross-Validation** – Making Sure Your Model is Reliable  
 
@@ -105,7 +106,7 @@ This helps avoid **flukes**, where the model performs well on one dataset but po
 ---
 ## 🔢 Data & Feature Engineering  
 
-### <a id="label-encoding--teaching-machines-to-understand-words"></a> 🔠 **Label Encoding** – Teaching Machines to Understand Words  
+### <a id="label-encoding--teaching-machines-to-understand-words"></a> 🏷️ **Label Encoding** – Teaching Machines to Understand Words  
 
 Imagine you're teaching a robot to recognize colors. 🚦  
 The robot doesn’t understand words like "Red" or "Blue"—it only understands numbers.  
